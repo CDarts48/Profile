@@ -1,0 +1,15 @@
+/* src/components/Footer/style.css */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #343a40;
+}
+
+.logo:hover {
+    color: #007bff;
+}
