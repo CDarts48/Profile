@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -22,7 +22,7 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/resume" element={<Resume />} />
-                </Routes>
+                    <Route path="/" element={<Navigate to="/about" />} />                </Routes>
             </main>
             <Footer />
         </Router>
