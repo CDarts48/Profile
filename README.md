@@ -10,6 +10,7 @@ https://github.com/CDarts48/Portfolio
 
 ## Screenshot
 ![alt-text:'Screen shot of app'](add later)
+<img width="1680" alt="Screenshot 2024-04-08 at 9 41 18 AM" src="https://github.com/CDarts48/Profile/assets/137344214/bb733ca2-b044-4b3f-81c0-0d026e850732">
 
 ## Table of Contents
 * [Features](#features)
