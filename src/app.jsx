@@ -22,7 +22,8 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/resume" element={<Resume />} />
-                    <Route path="/" element={<Navigate to="/about" />} />                </Routes>
+                    <Route path="/" element={<Navigate to="/about" />} />
+                </Routes>
             </main>
             <Footer />
         </Router>
