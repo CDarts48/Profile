@@ -1,5 +1,4 @@
 import React from "react";
-import profileImage from "../../assets/large/Profile/Profile_Pic.png";
 
 function About() {
     return (
@@ -11,9 +10,6 @@ function About() {
             </div>
             <div className="flex-row">
                 <div className="intro-info">
-                    <div className="intro-img">
-                        <img src={profileImage} style={{ width: "100%" }} alt="profile" />
-                    </div>
                     <p>
                         Greetings! I'm Corey Donahue, and I live in the beautiful city of Boulder, Colorado. I am passionate about various activities including Jiu-Jitsu, exercising, grilling, and spending quality time playing with my daughter.
                     </p>
