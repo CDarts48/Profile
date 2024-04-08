@@ -1,4 +1,5 @@
 import React from "react";
+import reactImage from './react image .jpeg'; // Import the image
 
 function About() {
     return (
@@ -17,6 +18,7 @@ function About() {
                         Additionally, I hold a Master's degree in International Law, which has provided me with valuable insights and knowledge in the field of law and global affairs. I also have extensive experience in software sales, and I am currently on a journey to better understand and create software.
                     </p>
                 </div>
+                <img src={reactImage} alt="React" style={{ width: '400px', height: '400px' }} /> {/* Add the image */}
             </div>
         </section>
     );

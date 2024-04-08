@@ -1,4 +1,3 @@
-// src/components/Resume/index.jsx
 import React from 'react';
 
 const Resume = () => {
@@ -8,7 +7,7 @@ const Resume = () => {
     <section>
       <h2>Resume</h2>
       <p>
-        Download my <a href="/path_to_your_resume.pdf" download>resume</a>.
+        Download my <a href="/Corey Donahue's Resume.pdf" download>resume</a>.
       </p>
       <h3>Skills</h3>
       <ul>
